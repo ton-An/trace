@@ -1,0 +1,24 @@
+name: Trace
+description: An app which is supposed to track where I have been. It's supposed to be for myself only, at least for now. Before publishing there needs to be a lot of thought about privacy
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons:
+    git:
+      url: https://github.com/fluttercommunity/flutter_launcher_icons.git
+      ref: 26fedcee4b0e6f7a85f65f1fb48834a21f57e970
+
+flutter:
+  uses-material-design: true
